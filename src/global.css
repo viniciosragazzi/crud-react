@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: rgba(218, 222, 224, 0.432);
+}
+.body {
+  height: 100vh;
+}
+.homeArea {
+  grid-template-columns: 3fr 1fr;
+}
+.active {
+  color: rgb(31, 41, 55);
+}
+
+.searchAdd {
+  width: max(30vw, 200px);
+}
+
+select {
+
+  background-color: transparent;
+  border: gray 1px solid;
+  border-radius: 5px;
+  padding: .1rem .8rem;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
